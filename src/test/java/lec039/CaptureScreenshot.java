@@ -50,7 +50,7 @@ public class CaptureScreenshot
 
 //	2. Screenshot of Specific area / block of the page
 	
-//	@Test
+	@Test
 	public void takeScreenshotOfSpecificSectionOfWebPage()
 	{
 		WebDriverManager.chromedriver().setup();
@@ -67,7 +67,7 @@ public class CaptureScreenshot
 	}
 	
 //	3.	Screenshot of Web element
-	@Test
+//	@Test
 	public void takeElementScreenshot()
 	{
 		WebDriverManager.chromedriver().setup();
