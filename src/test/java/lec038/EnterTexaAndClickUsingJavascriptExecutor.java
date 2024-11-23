@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -17,8 +18,11 @@ public class EnterTexaAndClickUsingJavascriptExecutor
 	public void enterTextUsingJavascriptExecutor()
 	{
 		WebDriverManager.chromedriver().setup();
-		
 		WebDriver driver = new ChromeDriver();
+		
+//		WebDriverManager.edgedriver().setup();
+//		WebDriver driver = new EdgeDriver();
+		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
 //		ChromeDriver driver = new ChromeDriver();

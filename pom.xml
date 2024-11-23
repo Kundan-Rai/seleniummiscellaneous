@@ -51,6 +51,13 @@
 			<version>5.0.9</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<optional>true</optional>
+		</dependency>
 
 	</dependencies>
 
@@ -79,7 +86,7 @@
 					<version>3.3.0</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testnglec039.xml</suiteXmlFile>
+							<suiteXmlFile>testng_lec039.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
