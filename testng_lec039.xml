@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <class name="lec039.CaptureScreenshot"/>
+    <!-- <class name="lec039.CaptureScreenshot"/> -->
+    <class name="lec039.CaptureScreenshotWithTimeStamp"/>
       <!-- <class name="lec039.SSLHandling"/>
       <class name="lec039.DisableAutomatedMessageOnScreen"/>
       <class name="lec039.HeadlessTesting"/>

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-23T23:45:15 IST" name="Suite" finished-at="2024-11-23T23:45:19 IST" duration-ms="4137">
+  <suite started-at="2024-11-24T10:15:57 IST" name="Default suite" finished-at="2024-11-24T10:16:00 IST" duration-ms="3187">
     <groups>
     </groups>
-    <test started-at="2024-11-23T23:45:15 IST" name="Test" finished-at="2024-11-23T23:45:19 IST" duration-ms="4137">
-      <class name="lec039.CaptureScreenshot">
-        <test-method signature="takeScreenshotOfSpecificSectionOfWebPage()[pri:0, instance:lec039.CaptureScreenshot@10e41621]" started-at="2024-11-23T23:45:15 IST" name="takeScreenshotOfSpecificSectionOfWebPage" finished-at="2024-11-23T23:45:19 IST" duration-ms="4113" status="PASS">
+    <test started-at="2024-11-24T10:15:57 IST" name="Default test" finished-at="2024-11-24T10:16:00 IST" duration-ms="3187">
+      <class name="lec039.CaptureScreenshotWithTimeStamp">
+        <test-method signature="takeFullPageScreenshot()[pri:0, instance:lec039.CaptureScreenshotWithTimeStamp@57c758ac]" started-at="2024-11-24T10:15:57 IST" name="takeFullPageScreenshot" finished-at="2024-11-24T10:16:00 IST" duration-ms="3164" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- takeScreenshotOfSpecificSectionOfWebPage -->
-      </class> <!-- lec039.CaptureScreenshot -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- takeFullPageScreenshot -->
+      </class> <!-- lec039.CaptureScreenshotWithTimeStamp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
