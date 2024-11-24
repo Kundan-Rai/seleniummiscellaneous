@@ -18,6 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class CaptureScreenshotWithTimeStamp
 {
 //	1. Screenshot of Full page
+	// Taking the screenshot using time stamp
 	@Test
 	public void takeFullPageScreenshot() throws IOException
 	{
